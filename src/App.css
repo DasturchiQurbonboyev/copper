@@ -1,0 +1,44 @@
+.navbar {
+  background: linear-gradient(285.45deg, #0B3F37 38.27%, #CB8D62 141.81%);
+}
+
+.hover-underline-animation {
+  position: relative;
+  text-decoration: none;
+}
+
+.hover-underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  display: block;
+  margin-top: 5px;
+  right: 0;
+  background: linear-gradient(92.09deg, #5E3928 -79.4%, #E4A16F 84.12%);
+  transition: width 0.3s ease, background-color 0.3s ease;
+}
+
+.hover-underline-animation:hover::after {
+  left: 0;
+  width: 100%;
+  background: linear-gradient(92.09deg, #5E3928 -79.4%, #E4A16F 84.12%);
+}
+
+.bg__hero__img {
+  background-image: url(./assets/hero/hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.home-Copper {
+  background-image: url(../src/assets//homeCopper/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer {
+  background-image: url(./assets/homeCopper/bg.png);
+}

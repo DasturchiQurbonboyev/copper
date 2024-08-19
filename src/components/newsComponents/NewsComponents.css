@@ -1,0 +1,41 @@
+.news__components .swiper {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.news__components .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    height: calc((100% - 30px) / 2) !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.news__components .swiper-pagination {
+    position: relative;
+    margin-top: 54px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.news__components .swiper-pagination-bullet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #B3B9B8;
+}
+
+.news__components .swiper-pagination-bullet {
+    width: 38px;
+    height: 48px;
+}
+
+.news__components .swiper-pagination-bullet-active {
+    color: #fff;
+}
