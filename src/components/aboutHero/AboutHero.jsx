@@ -6,7 +6,7 @@ import hero from "../../assets/about/hero.png"
 
 const AboutHero = () => {
     return (
-        <div className='bg-[#f5f5f5] py-[60px]'>
+        <div className='bg-[#f5f5f5] pt-[160px] pb-[60px]'>
             <div className='kontainer'>
 
                 <div className='grid min-[650px]:grid-cols-2 gap-[68px] items-center'>

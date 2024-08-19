@@ -46,7 +46,7 @@ const CatalogComponent = () => {
 
 
     return (
-        <div>
+        <div className='py-[100px]'>
             <div className='kontainer'>
                 <div className='py-[40px]'>
                     <p className='text-[50px]    leading-[52.95px]  pb-[31px] '>Каталог</p>
@@ -88,7 +88,7 @@ const CatalogComponent = () => {
                         </select>
                     </div>
                 </div>
-                <div className='pb-[100px]'>
+                <div>
                     <div className='grid min-[550px]:grid-cols-2 min-[990px]:grid-cols-3 gap-[31px] justify-center'>
                         {productsApiSwiper?.map((el, inx) => (
                             <div key={inx} >

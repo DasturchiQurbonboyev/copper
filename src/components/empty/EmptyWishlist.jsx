@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const EmptyWishlist = () => {
     return (
-        <div className='py-[80px]'>
+        <div className='pt-[180px] pb-[80px]'>
             <div className="kontainer">
                 <div className='flex justify-center items-center'>
                     <img src="https://cdni.iconscout.com/illustration/premium/thumb/empty-wishlist-11941567-9741055.png" alt="" />

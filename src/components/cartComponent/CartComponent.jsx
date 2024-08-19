@@ -25,7 +25,7 @@ const CartComponent = () => {
     }
 
     return (
-        <div className='py-[80px]'>
+        <div className='pt-[180px] pb-[80px]'>
             <div className="kontainer">
                 <div className='flex justify-between items-center bg-clip-text pb-[46px] bg-gradient-to-r from-[#5E3928] to-[#E4A16F]'>
                     <p className=' uppercase  text-[30px] min-[500px]:text-[40px] min-[700px]:text-[50px] leading-[37.45px] font-[400]    '>Корзина</p>

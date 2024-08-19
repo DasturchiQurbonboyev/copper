@@ -4,7 +4,7 @@ import line from '../../assets/hero/Line1.png'
 
 const Hero = () => {
     return (
-        <div className='bg__hero__img bg-no-repeat bg-center'>
+        <div className='bg__hero__img bg-no-repeat bg-center pt-[100px]'>
             <div className="kontainer">
                 <div className='py-[100px]'>
                     <div className=' max-[450px]:max-w-[200px]'>

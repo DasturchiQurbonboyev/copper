@@ -18,7 +18,7 @@ const Navbar = () => {
 
 
     return (
-        <div className='navbar py-[30px] '>
+        <div className='navbar py-[30px] fixed mx-auto w-full z-50 '>
             <div className="kontainer">
                 {
                     pathname == "/order" || pathname == "/order-thanks" ? <></> :

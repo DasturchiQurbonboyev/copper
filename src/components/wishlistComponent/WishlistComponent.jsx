@@ -21,7 +21,7 @@ const WishlistComponent = () => {
     }
 
     return (
-        <div className='py-[100px]'>
+        <div className='pt-[180px] pb-[100px]'>
             <div className="kontainer">
                 <p className=' uppercase  text-[30px] min-[500px]:text-[40px] min-[800px]:text-[50px] leading-[37.45px] font-[400] pb-[46px]   '>Нравиться</p>
                 <div className='grid justify-center min-[660px]:grid-cols-2 min-[970px]:grid-cols-3 gap-5 '>

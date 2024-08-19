@@ -7,7 +7,7 @@ const OrderThanks = () => {
         window.scrollTo(0, 0);
     }, []);
     return (
-        <div className='py-[80px]'>
+        <div className='pt-[180px] pb-[80px]'>
             <div className="kontainer text-[#031412]">
                 <div className='flex justify-center items-center'>
                     <img src={zakaz} alt="" />

@@ -6,7 +6,7 @@ const EmptyCart = () => {
         window.scrollTo(0, 0);
     }, []);
     return (
-        <div className='py-[80px]'>
+        <div className='pt-[180px] pb-[80px]'>
             <div className='kontainer'>
                 <div className='flex justify-center items-center'>
                     <img className='w-[400px]' src="https://static.vecteezy.com/system/resources/thumbnails/005/006/007/small/no-item-in-the-shopping-cart-click-to-go-shopping-now-concept-illustration-flat-design-eps10-modern-graphic-element-for-landing-page-empty-state-ui-infographic-icon-vector.jpg" alt="" />

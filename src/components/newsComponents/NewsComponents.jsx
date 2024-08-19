@@ -40,7 +40,7 @@ const NewsComponents = () => {
     };
 
     return (
-        <div className='py-[80px] news__components'>
+        <div className='pt-[180px] pb-[80px] news__components'>
             <div className="kontainer text-[#031412]">
                 <p className='text-[50px] leading-[52.95px]  pb-[31px] '>Новости</p>
                 <div className=''>

@@ -85,7 +85,7 @@ const AnOrderComponent = () => {
     }
 
     return (
-        <div className='py-[80px]'>
+        <div className='pt-[180px] pb-[80px]'>
             <div className="kontainer">
                 <div className='grid min-[750px]:flex justify-around pb-[30px]'>
                     <button className='border px-[78px] py-[18px] text-[#A1A1A1]'>Назад к покупкам</button>

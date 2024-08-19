@@ -23,7 +23,7 @@ const SingleComponent = () => {
     }, [id]);
 
     return (
-        <div className='pt-[80px]'>
+        <div className='pt-[180px]'>
             <div className='kontainer'>
                 <div className=" grid pb-[50px] min-[800px]:grid-cols-2 items-start gap-16 mx-auto max-md:px-2 ">
                     <div className="img flex max-[920px]:flex-col-reverse gap-5">
