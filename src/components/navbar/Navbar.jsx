@@ -29,7 +29,7 @@ const Navbar = () => {
                                 </div>
                                 <div className='flex justify-center' >
                                     <div className='absolute  flex gap-4 top-7    -mt-[30px] '>
-                                        <Link to={"/wishlist"}>
+                                        <Link onClick={() => setMenuButton(false)} to={"/wishlist"}>
                                             <div className='bg-white relative  px-[10px] pb-[13px] pt-[40px]     '>
                                                 <p className='absolute top-2 left-4 text-[25px] font-[900] leading-[24.1px] text-[#E4A16F]   '>
                                                     {wishlist.length == 0 ? "" : wishlist.length}
@@ -38,7 +38,7 @@ const Navbar = () => {
                                             </div>
                                         </Link>
                                         <div className='bg-white  px-[10px] pb-[12px] pt-[40px]     '><img src={navbarUser} alt="" /></div>
-                                        <Link to={"/cart"}>
+                                        <Link onClick={() => setMenuButton(false)} to={"/cart"}>
                                             <div className='bg-white relative  px-[10px] pb-[15px] pt-[40px]     '>
                                                 <p className='absolute top-2 left-4 text-[25px] font-[900] leading-[24.1px] text-[#E4A16F]  '>
                                                     {cart.length == 0 ? "" : cart.length}
